@@ -1,0 +1,38 @@
+NEAT (NeuroEvolution of Augmenting Topologies) is a popular algorithm for evolving artificial neural networks using genetic algorithms. Below is a simplified version of the NEAT training algorithm:
+
+1. Initialization**:
+   - Generate a population of neural networks with random initial architectures.
+   - Assign a fitness score of 0 to each network.
+
+2. Evaluation**:
+   - For each network in the population, evaluate its performance on a given task using a fitness function.
+   - The fitness function could be based on how well the network performs the task (e.g., accuracy, distance covered, score achieved, etc.).
+
+3. Selection**:
+   - Select the top-performing networks as parents for the next generation.
+   - The selection process can be based on ranking the networks according to their fitness scores and applying selection methods like roulette wheel selection or tournament selection.
+
+4. Reproduction**:
+   - Create offspring from the selected parents through crossover and mutation operations.
+   - Crossover involves combining the structures of two parent networks to create a new one.
+   - Mutation involves modifying some components of the new network to introduce novelty and explore the search space.
+
+5. Speciation**:
+   - Organize the population into species based on the structural similarity of the networks.
+   - Networks that are structurally close are grouped into the same species to encourage diversity and prevent premature convergence.
+
+6. Elitism**:
+   - Preserve some of the best-performing networks from the previous generation in the next generation unchanged.
+   - Elitism helps to ensure that successful traits are not lost during evolution.
+
+7. Population Control**:
+   - Adjust the population size by removing poor-performing networks to make room for new offspring.
+   - This step ensures a consistent population size and helps in maintaining diversity.
+
+8. Termination**:
+   - Repeat the evaluation-selection-reproduction-speciation-elitism-population control loop for a fixed number of generations or until a stopping criterion is met (e.g., achieving a desired performance level).
+
+9. **Finalization**:
+   - Once the training is complete, the best-performing network found during the evolution process is selected as the final solution.
+
+It's important to note that the actual NEAT algorithm can be more complex, involving various parameters and techniques to fine-tune the evolutionary process. The above description provides a general outline of how NEAT works. To implement NEAT, you'll need to define the neural network representation, the fitness function, mutation and crossover operations, speciation criteria, and other hyperparameters specific to your problem domain.
