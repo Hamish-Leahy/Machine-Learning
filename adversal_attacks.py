@@ -35,6 +35,8 @@ def main():
     epsilon = 0.01  # Strength of the attack
     loss_object = tf.keras.losses.CategoricalCrossentropy()
 
+    # add render pool ro generate randomized adversial attacks 
+
     def create_adversarial_pattern(input_image, input_label):
         with tf.GradientTape() as tape:
             tape.watch(input_image)
