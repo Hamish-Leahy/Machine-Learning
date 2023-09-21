@@ -1,0 +1,19 @@
+Here is a basic overview of a machine learning algorithm that could be included on a GitHub profile:
+
+# Machine Learning Enthusiast 
+
+I'm interested in machine learning and its applications in various fields. Recently, I've been exploring recommendation systems and how they use machine learning to provide personalized recommendations. 
+
+For example, I implemented a simple movie recommender in Python that uses collaborative filtering to make suggestions based on a database of user ratings.
+
+The algorithm has two main steps:
+
+1. Look for users that have a similar tasting profile as the target user (the user we want to generate recommendations for). This is done by computing similarity scores between all users using metrics like cosine similarity or Pearson correlation.
+
+2. Generate movie recommendations by selecting movies that high-similarity users have rated highly, but that the target user hasn't watched yet. This uses the wisdom of the crowd to suggest new movies the user might like.
+
+While simple, collaborative filtering is powerful technique that is used in many real-world recommendation systems. I learned a lot about how machine learning models can uncover patterns and make predictions on new data.
+
+Check out the [Recommender Project](github.com/user/recommender) repository to see the full implementation! I'm always looking to apply ML to new domains and problems, so reach out if you want to discuss!
+
+Let me know if you would like me to modify or expand this overview in any way!
