@@ -6,4 +6,6 @@ This repository contains Jupyter Notebooks and scripts showcasing various machin
 
 Explore the Documentation and Examples to get started.
 
+This repository is depreceated and will no longer be supported
+
 © 2023 Hamish Leahy. All rights reserved.
